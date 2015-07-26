@@ -6,7 +6,7 @@ package jvidals1.c4q.nyc.sqlnyc;
 public class Deaths {
     private static String deaths;
     private static String ethnicity;
-    private static int year;
+    private static String sex;
 
     public static String getDeaths() {
         return deaths;
@@ -24,11 +24,11 @@ public class Deaths {
         Deaths.ethnicity = ethnicity;
     }
 
-    public static int getYear() {
-        return year;
+    public static String getSex() {
+        return sex;
     }
 
-    public static void setYear(int year) {
-        Deaths.year = year;
+    public static void setSex(String sex) {
+        Deaths.sex = sex;
     }
 }
